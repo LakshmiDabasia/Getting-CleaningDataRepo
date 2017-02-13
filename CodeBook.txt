@@ -1,0 +1,31 @@
+#Code Book
+
+This code book provides a description of the input and output data sets, as well as the procedure for performing the mentioned transformation.
+
+## Description of input data
+
+The original data is a zip file containing the following:
+- 'README.txt'
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+## Description of output data
+- 'tidy.csv': A table consisting of the agregated means for each subject and activity pair for all of the measured variables.
+
+## Procedure
+
+1. Download the data zip file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+2. Extract all into your R working directory.
+3. Run the R script 'runanalysis.R'
